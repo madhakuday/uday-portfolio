@@ -2,7 +2,7 @@
 
 > This is personal portfolio website.
 
-![Portfolio](https://raw.github.com/madhakuday/portfolio---react/master/src/assets/port.png)
+![Portfolio](https://raw.github.com/madhakuday/uday-portfolio/master/src/assets/port.png)
 
 ## Built With
 
