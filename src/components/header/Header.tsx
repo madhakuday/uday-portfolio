@@ -2,11 +2,10 @@ import React from "react";
 import CTA from "./CTA";
 import Typed from "typed.js";
 import "./header.css";
-import BottomNavigation from "../bottomNavigation/bottomNavigation";
 
 const Header = () => {
-  const el = React.useRef(null);
-  const typed = React.useRef(null);
+  const el: any = React.useRef(null);
+  const typed: any = React.useRef(null);
 
   React.useEffect(() => {
     const options = {

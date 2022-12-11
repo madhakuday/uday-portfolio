@@ -5,8 +5,8 @@ import "./contact.css";
 
 const Contact = () => {
   const [message, setMessage] = useState(false);
-  const formRef = useRef();
-  const handleSubmit = (e) => {
+  const formRef: any = useRef();
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     setMessage(true);
     emailjs
@@ -59,7 +59,7 @@ const Contact = () => {
           />
           <textarea
             placeholder="Your message"
-            rows="7"
+            rows={7}
             name="message"
             required
           ></textarea>

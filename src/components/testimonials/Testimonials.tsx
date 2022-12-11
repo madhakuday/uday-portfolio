@@ -62,11 +62,11 @@ const Testimonials = () => {
       >
         {testimonials.map((test) => (
           <SwiperSlide className="testimonial" key={test.id}>
-            <di className="client__avatar">
+            <div className="client__avatar">
               <a href={test.link}>
                 <BsLinkedin />
               </a>
-            </di>
+            </div>
             <h5 className="client__name">{test.name}</h5>
             <small className="client__review">{test.test}</small>
           </SwiperSlide>
